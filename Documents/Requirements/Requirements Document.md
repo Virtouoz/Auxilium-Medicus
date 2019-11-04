@@ -81,7 +81,7 @@
 <a name="software_interfaces"/>
 
 ## 2.1 Программные интерфейсы
-.
+Для старта можно воспользоваться информацией о болезнях: https://mkb10.su/.
 
 <a name="user_interface"/>
 
