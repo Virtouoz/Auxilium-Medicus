@@ -87,8 +87,12 @@
 
 ## 2.2 Интерфейс пользователя
 
-![registration](https://github.com/Virtouoz/Auxilium-Medicus/tree/master/Documents/images/mockups/Registration%20sign%20in.png)
-![registration](https://github.com/Virtouoz/Auxilium-Medicus/tree/master/Documents/images/mockups/Документы.png)
+
+![doc](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Doc.png)
+![sign_in](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Patients.png)
+![sign_up](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Registration_sign_up.png)
+![personal_area](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Personal_Area.png)
+![patients](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Patients.png)
 
 ## 2.3 Характеристики пользователей
 
