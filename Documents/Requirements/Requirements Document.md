@@ -88,15 +88,15 @@
 ## 2.2 Интерфейс пользователя
 
 Окно регистрации или входа. Часть со входом.
-![sign_in](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Patients.png)
+![sign_in](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Registration_sign_in.png)<br>
 Окно регистрации или входа. Часть с регистрацией.
-![sign_up](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Registration_sign_up.png)
+![sign_up](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Registration_sign_up.png)<br>
 Главное окно. Часть с персональными данными о враче.
-![personal_area](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Personal_Area.png)
+![personal_area](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Personal_Area.png)<br>
 Главное окно. Часть с персональными данными о пациенте, история болезни.
-![patients](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Patients.png)
+![patients](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Patients.png)<br>
 Главное окно. Часть со всеми данными о пациенте. 
-![doc](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Doc.png)
+![doc](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/mockups/Doc.png)<br>
 
 
 ## 2.3 Характеристики пользователей
