@@ -6,4 +6,4 @@
 <a name="1"/>
 
 # 1. Работа с пациентом
-![Информация о пациенте](https://github.com/Virtouoz/Auxilium-Medicus/tree/master/Documents/images/diagrams/State.svg)
+![Информация о пациенте](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/diagrams/State.svg)
