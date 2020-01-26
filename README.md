@@ -1,2 +1,2 @@
 # Auxilium-Medicus
-Project TDaTSw
+This program helps the doctor in work.
