@@ -5,5 +5,5 @@
 
 <a name="1"/>
 
-# 1. Дианрамма классов
+# 1. Диаграмма классов
 ![Дианрамма классов 1](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/images/diagrams/class.svg)
