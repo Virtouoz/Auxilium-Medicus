@@ -4,4 +4,4 @@
 3. [Диаграммы последовательности](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/Diagrams/Sequence.md)
 4. [Диаграммы состояний](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/Diagrams/State.md)
 5. [Диаграмма классов](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/Diagrams/Class.md)
-6. [Диаграмма компонентов и развертывания](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/Diagrams/Component.md)
+6. [Диаграмма компонентов](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/Diagrams/Component.md)
