@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyDoc</string>
+
+    <string name="autoris">Авторизация</string>
+    <string name="registr">Регистрация</string>
+
+    <string name="firsName">Фамилия</string>
+    <string name="name">Имя</string>
+    <string name="lastName">Отчество</string>
+    <string name="age">Возраст</string>
+    <string name="job">Место работы</string>
+    <string name="inputInfo">О себе</string>
+    <string name="post">Должность</string>
+
+    <string name="myInfo">Заполнить информацию о себе</string>
+    <string name="btnListPersons">Список пациентов</string>
+
+    <string name="str_input">Введите сообщение</string>
+    <string name="button_input">Добавить</string>
+    <string name="save">Сохранить</string>
+
+</resources>
