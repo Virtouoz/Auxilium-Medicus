@@ -66,7 +66,7 @@ public class inputMyInfo extends AppCompatActivity {
 
                 DoctorInfo doctorInfo = new DoctorInfo(str1,str2,str3,str4,str5,str6,str7,str8);
 
-                if (str1.equals("") && str2.equals("")&& str3.equals("")&& str4.equals("")&& str5.equals("")&& str6.equals("")&& str7.equals("")) {
+                if (str1.equals("") || str2.equals("")|| str3.equals("")|| str4.equals("")|| str5.equals("")|| str6.equals("")|| str7.equals("")) {
                     Toast.makeText(getApplicationContext(), "ЧЕ ЗА ФИГНЯ! ЗАПОЛНИ ВСЕ!", Toast.LENGTH_SHORT).show();
                     return;
                 }

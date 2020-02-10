@@ -29,7 +29,7 @@ public class DataAdapter extends RecyclerView.Adapter<ViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final ViewHolder holder, int position) {
         String per = persons.get(position);
         holder.person.setText(per);
     }

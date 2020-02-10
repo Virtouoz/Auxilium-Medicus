@@ -1,5 +1,6 @@
 package com.example.lait.mydoc;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -28,8 +29,12 @@ public class ListPerson extends AppCompatActivity {
     private DatabaseReference myRef;
     private FirebaseUser user;
 
-    EditText mEditText;
-    Button mButton;
+
+    EditText mEditTextInfoPersonFirst;
+    EditText mEditTextInfoPersonName;
+    EditText mEditTextInfoPersonLast;
+    Button mButtonInfoPerson;
+    Button mButtonSearch;
     RecyclerView  mPersonRecycler;
 
     ArrayList<String> personlist = new ArrayList<>();
@@ -44,8 +49,11 @@ public class ListPerson extends AppCompatActivity {
         String way = "/doctor/"+ user.getUid() +"/persons";
         myRef = database.getReference(way);
 
-        mButton = findViewById(R.id.button_input);
-        mEditText = findViewById(R.id.str_input);
+        mButtonInfoPerson = findViewById(R.id.btn_person_info);
+        mButtonSearch = findViewById(R.id.btn_search);
+        mEditTextInfoPersonFirst = findViewById(R.id.str_seach_person_firstname);
+        mEditTextInfoPersonName = findViewById(R.id.str_seach_person_name);
+        mEditTextInfoPersonLast = findViewById(R.id.str_seach_person_lastname);
         mPersonRecycler = findViewById(R.id.recycler);
 
         mPersonRecycler.setLayoutManager(new LinearLayoutManager(this));
@@ -56,21 +64,51 @@ public class ListPerson extends AppCompatActivity {
 
         mPersonRecycler.callOnClick();
 
-        mButton.setOnClickListener(new View.OnClickListener() {
+        mButtonInfoPerson.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String str = mEditText.getText().toString();
-                if (str.equals("")) {
-                    Toast.makeText(getApplicationContext(), "ЧЕ ЗА ФИГНЯ!", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-                if (str.length() > MAX_PERSON) {
-                    Toast.makeText(getApplicationContext(), "А НЕ ТРЕСНЕТ ЛИ?!", Toast.LENGTH_SHORT).show();
+
+                String str1 = mEditTextInfoPersonFirst.getText().toString();
+                String str2 = mEditTextInfoPersonName.getText().toString();
+                String str3 = mEditTextInfoPersonLast.getText().toString();
+
+                if(str1.equals("") || str2.equals("") || str3.equals("")){
+                    Toast.makeText(ListPerson.this, "Введите ФИО", Toast.LENGTH_SHORT).show();
                     return;
                 }
 
-                myRef.push().setValue(str);//myRef.child(user.getUid()).child("ListPerson").push().setValue(str);
-                mEditText.setText("");
+                String str0 = str1 + "-" + str2 + "-" + str3;
+                myRef.push().setValue(str0);
+                mEditTextInfoPersonLast.setText("");
+                mEditTextInfoPersonName.setText("");
+                mEditTextInfoPersonFirst.setText("");
+
+                Intent intent = new Intent(ListPerson.this, InfoPerson.class);
+                intent.putExtra("name", str0);
+                startActivity(intent);
+            }
+        });
+        mButtonSearch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String str1 = mEditTextInfoPersonFirst.getText().toString();
+                String str2 = mEditTextInfoPersonName.getText().toString();
+                String str3 = mEditTextInfoPersonLast.getText().toString();
+
+                if(str1.equals("") || str2.equals("") || str3.equals("")){
+                    Toast.makeText(ListPerson.this, "Введите ФИО", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+                String str0 = str1 + "-" + str2 + "-" + str3;
+                //myRef.push().setValue(str0);
+                mEditTextInfoPersonLast.setText("");
+                mEditTextInfoPersonName.setText("");
+                mEditTextInfoPersonFirst.setText("");
+
+                Intent intent = new Intent(ListPerson.this, SearchPerson.class);
+                intent.putExtra("name", str0);
+                startActivity(intent);
             }
         });
 
