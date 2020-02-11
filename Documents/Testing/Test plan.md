@@ -75,7 +75,7 @@
 
 <a name="6"></a>
 ## 6. Представление результатов
-Результаты тестирования представлены в [документе]().
+Результаты тестирования представлены в [документе](https://github.com/Virtouoz/Auxilium-Medicus/blob/master/Documents/Test%20results/test%20results.md).
 
 <a name="7"></a>
 ## 7. Вывод
